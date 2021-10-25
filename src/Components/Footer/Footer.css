@@ -1,0 +1,58 @@
+.footer-uppercase-heading {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #000;
+  margin-bottom: 25px;
+}
+
+.footer-bold-text {
+  font-weight: 600;
+}
+
+.footer-text {
+  line-height: 28px;
+  font-weight: 300;
+  margin: 0;
+  color: #000000;
+}
+
+.footer-links {
+  font-weight: 300 !important;
+  line-height: 20px;
+  letter-spacing: 1.2px;
+  cursor: pointer;
+}
+
+.footer-contact-list {
+  list-style: none;
+  padding: 0 !important;
+}
+
+.footer-no-spacing {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.MuiDivider-root {
+  height: 0.5px !important;
+}
+
+.pt-20 {
+  padding-top: 20px;
+}
+
+.mt-10 {
+  margin-top: 10px !important;
+}
+
+.footer-container {
+  padding-top: 40px;
+}
+@media only screen and (max-width: 720px) {
+  .footer-text {
+    font-size: small;
+  }
+}

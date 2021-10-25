@@ -1,0 +1,25 @@
+.carousel {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  margin: 8% 0 3% 0%;
+  position: relative;
+}
+
+.carousel-heading {
+  color: "whitesmoke";
+  text-align: center;
+  display: inline-block;
+  font-size: 29px;
+  font-style: inherit;
+  vertical-align: baseline;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.tech {
+  margin-left: 35px;
+}
+
+.slider {
+  margin-top: 20px;
+}

@@ -1,0 +1,36 @@
+
+
+  .dark-image{
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+   
+  }
+ 
+
+  .content {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    height: 100%;
+    transition: 0.3s;
+  }
+
+  .image-heading{
+    margin-top:25%;
+    text-align:auto;
+    margin-left: 40px;
+  }
+  .image-para{
+    text-align:justify;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  
+ 
+  .cursor{
+    cursor:pointer
+  }

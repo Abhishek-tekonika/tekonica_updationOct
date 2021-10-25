@@ -1,0 +1,72 @@
+.nav1 {
+  height: 30px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: rgb(95, 97, 171);
+  color: white;
+  float: right;
+  width: 100%;
+}
+.row2 {
+  float: right;
+  padding-right: 9%;
+}
+a.social {
+  margin: 0 0.5rem;
+  transition: transform 250ms;
+  display: inline-block;
+  font-size: smaller;
+  padding-top: 2px;
+}
+
+a.social:hover {
+  transform: translateY(-2px);
+}
+
+a.youtube {
+  color: white;
+}
+
+a.facebook {
+  color: white;
+}
+
+a.twitter {
+  color: white;
+}
+
+a.instagram {
+  color: white;
+}
+
+.para2 {
+  padding-left: 100px;
+}
+.para1 {
+  padding-left: 100px;
+}
+@media screen and (max-width: 785px) {
+  .para1 {
+    padding-left: 2.2rem;
+    font-size: 0.7rem;
+  }
+  .para2 {
+    font-size: 0.7rem;
+  }
+}
+@media screen and (max-width: 380px) and (min-width: 240px) {
+  .para1 {
+    padding-left: 1.2rem;
+    font-size: 0.52rem;
+  }
+  .para2 {
+    padding: 20px;
+    font-size: 0.7rem;
+  }
+}
+
+/* @media screen and (max-width: 800px) {
+  body {
+    background-color: lavender;
+  }
+} */
