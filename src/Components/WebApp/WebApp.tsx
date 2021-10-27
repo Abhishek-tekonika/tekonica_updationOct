@@ -16,26 +16,37 @@ const useStyle = makeStyles((theme) => ({
     cursor: "pointer",
   },
   images: {
-    width: "100%",
-    height: "50%",
+    [theme.breakpoints.up(300)]: {
+      width: "127%",
+      height: "50%",
+      marginLeft: "-19px"
+    },
+    [theme.breakpoints.up(500)]: {
+      width: "159%",
+      height: "50%",
+      marginLeft: "-40px"
+    },
+    [theme.breakpoints.up(900)]: {
+      width: "100%",
+      height: "50%",
+    },
   },
- head:{
-   color:"rgb(95,97,171)",
-  
-   lineHeight:"68px",
-   fontWeight:500,
-   [theme.breakpoints.up(320)]: {
-    fontSize: "25px",
-  },
-  [theme.breakpoints.up(500)]: {
-    fontSize: "35px",
-  },
-  [theme.breakpoints.up(900)]: {
-    fontSize: "60px",
+  head: {
+    color: "rgb(95,97,171)",
+
+    lineHeight: "68px",
+    fontWeight: 500,
+    [theme.breakpoints.up(320)]: {
+      fontSize: "25px",
+    },
+    [theme.breakpoints.up(500)]: {
+      fontSize: "35px",
+    },
+    [theme.breakpoints.up(900)]: {
+      fontSize: "60px",
+    },
   },
 
- },
-  
   text: {
     fontSize: "18px",
     lineHeight: "28px",

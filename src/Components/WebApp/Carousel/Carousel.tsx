@@ -23,30 +23,30 @@ const Carousel = (): JSX.Element => {
           </Col>
         </Row>
         <Row className="tech" justify="center">
-          <Col xs={6} sm={6} md={2} lg={2}>
+          <Col xs={6} sm={6} md={4} lg={3} >
             <img src={slider1} width="60%" className="slider" alt="" />
           </Col>
-          <Col xs={6} sm={6} md={2} lg={2}>
+          <Col xs={6} sm={6} md={4} lg={3} >
             <img src={slider3} width="60%" className="slider" alt="" />
           </Col>
-          <Col xs={6} sm={6} md={2} lg={2}>
+          <Col xs={6} sm={6} md={4} lg={3} >
             <img src={slider4} width="60%" className="slider" alt="" />
           </Col>
-          <Col xs={6} sm={6} md={2} lg={2}>
+          <Col xs={6} sm={6} md={4} lg={3} >
             <img src={slider6} width="60%" className="slider" alt="" />
           </Col>
-          <Col xs={6} sm={6} md={2} lg={2}>
+          <Col xs={6} sm={6} md={4} lg={3} >
             <img src={slider7} width="60%" className="slider" alt="" />
           </Col>
-          <Col xs={6} sm={6} md={2} lg={2}>
+          <Col xs={6} sm={6} md={4} lg={3} >
             <img src={slider8} width="60%" className="slider" alt="" />
           </Col>
 
-          <Col xs={6} sm={6} md={2} lg={2}>
+          <Col xs={6} sm={6} md={4} lg={3} >
             <img src={slider2} width="60%" className="slider" alt="" />
           </Col>
 
-          <Col xs={6} sm={6} md={2} lg={2}>
+          <Col xs={6} sm={6} md={4} lg={3} >
             <img src={slider5} width="65%" className="slider" alt="" />
           </Col>
         </Row>
