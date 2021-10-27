@@ -12,11 +12,8 @@
   margin-top: 50px;
 }
 .image-logo-1 {
-  height: 80px;
-  width: 150px;
-  margin-left: 55px;
-  margin-right: 50px;
-  margin-top: -25px;
+  margin-left: 80px;
+  margin-right: 26px;
 }
 /* .img-space1 {
   margin-top: 30px;
@@ -48,12 +45,40 @@
   margin-top: 50px;
   /* margin-left: 100px; */
 }
+.stiga {
+  height: 90%;
+  width: 50%;
+  padding-top: 6%;
+}
+.hi-yatri {
+  width: 70%;
+  height: 140px;
+  margin-left: 25px;
+}
 .imgyatri {
   margin-left: 58px;
 }
-
-
-@media only screen and (min-width: 700px) {
+.img-aggio {
+  height: auto;
+  width: 45%;
+  /* margin-top: 15px; */
+}
+.imgwhite {
+  width: 45%;
+  height: 100px;
+  margin-top: -28px;
+}
+.img-bike {
+  width: 50%;
+}
+.imgfuse {
+  width: 50%;
+}
+.img-wheel {
+  width: 42%;
+  height: 90%;
+}
+/* @media only screen and (min-width: 700px) {
   .slider {
     margin-top: 50px;
     margin-left: 100px;
@@ -65,9 +90,25 @@
     margin-top: 75px;
     margin-left: 100px;
   }
-}
+} */
 
 @media screen and (max-width: 500px) and (min-width: 240px) {
+  .img-bike {
+    width: 38%;
+    margin-top: 5%;
+  }
+  .imgfuse {
+    width: 40%;
+  }
+  .img-wheel {
+    width: 36%;
+    height: 90%;
+  }
+  .stiga {
+    height: 90%;
+    width: 38%;
+    padding-top: 0%;
+  }
   .imgagg {
     margin-top: 35px;
   }
@@ -85,31 +126,48 @@
     font-size: 12px;
     padding: 10px;
   }
+  .imgwhite {
+    width: 38%;
+    height: 70px;
+  }
   .head-journey {
     font-size: 30px;
     margin-top: 50px;
   }
   .image-logo {
-    margin-left: 0%;
+    margin-left: 5%;
   }
   .img-2 {
-    margin-left: 50%;
-    margin-top: -30%;
+    margin-left: 55%;
+    margin-top: -25%;
+  }
+  .img-3 {
+    margin-left: 55%;
+    margin-top: -35%;
   }
 
   .hi-yatri {
-    margin-top: -2rem;
-    margin-left: -13%;
+    margin-top: -12rem;
+    margin-left: 39%;
   }
   .img-aggio {
-    margin-top: 40px;
+    margin-top: -50%;
+    width: 38%;
   }
 }
 
 @media only screen and (max-width: 700px) and (min-width: 501px) {
+  .stiga {
+    height: 90%;
+    width: 50%;
+    padding-top: 6%;
+  }
   .headline {
     font-size: 12px;
     padding: 10px;
+  }
+  .img-aggio {
+    margin-top: -50%;
   }
   .head-journey {
     font-size: 30px;
@@ -131,8 +189,8 @@
     margin-top: -34%;
   }
   .hi-yatri {
-    margin-top: -3rem;
-    margin-left: 3rem;
+    margin-top: -10rem;
+    margin-left: 12rem;
   }
   /* .imgagg {
     margin-top: 40px;

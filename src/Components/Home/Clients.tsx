@@ -36,8 +36,60 @@ const Clients = (): JSX.Element => {
             digital ideas into engaging, feature rich apps
           </h3>
         </div>
+        <div className="container">
+          <div className="row">
+            <div className="col-md-4 col-sm-6 col-xs-6">
+              <img
+                className="image-logo img-wheel"
+                src={wheelsemi}
+                alt="wheelsemi"
+              />
+            </div>
+            <div className="col-md-4 col-sm-6 col-xs-6">
+              <img
+                className="image-logo img-2 imgfuse"
+                src={Sourcefuse}
+                alt="sourcefuse"
+              />
+            </div>
+            <div className="col-md-4 col-sm-6 col-xs-6">
+              <img
+                className="image-logo img-bike"
+                src={bikebazaar}
+                alt="bikebazaar"
+              />
+            </div>
+          </div>
+          <div className="row img-space"></div>
+          <div className="row img-space1">
+            <div className="col-md-4 col-sm-6 col-xs-6 col-sm-12">
+              <img
+                className="image-logo img-aggio img-2"
+                src={aggio}
+                alt="aggio"
+              />
+            </div>
+            <div className="col-md-4 col-sm-6 col-xs-6 col-sm-12">
+              <img
+                className="image-logo stiga"
+                src={Stigasoft}
+                alt="stigasoft"
+                style={{}}
+              />
+            </div>
 
-        <Container className="carousel">
+            <div className="col-md-4 col-sm-6 col-xs-6 col-sm-12">
+              <img
+                className="image-logo-1 img-2 imgwhite img-3"
+                style={{}}
+                src={whitehilllogo}
+                alt="yuno"
+              />
+            </div>
+          </div>
+        </div>
+
+        {/* <Container className="carousel">
         <Row className="tech" justify="center">
           <Col xs={4} sm={6} md={4} lg={4} >
             <img src={Stigasoft} width="35%" alt="" className="slider"/>
@@ -48,13 +100,6 @@ const Clients = (): JSX.Element => {
           <Col xs={4} sm={6} md={4} lg={4} >
             <img src={bikebazaar} width="45%" alt="" className="slider"/>
           </Col>
-         
-          {/* <Col xs={4} sm={6} md={4} lg={4} >
-            <img src={wiziq} width="45%" alt="" className="slider"/>
-          </Col>
-          <Col xs={4} sm={6} md={4} lg={4} >
-            <img src={yuno} width="45%" alt="" className="slider"/>
-          </Col> */}
 
           <Col xs={4} sm={6} md={4} lg={4} >
             <img src={whitehilllogo} width="35%" alt="" className="slider"/>
@@ -70,89 +115,9 @@ const Clients = (): JSX.Element => {
             <img src={wheelsemi} width="45%" alt="" className="slider"/>
           </Col>
         </Row>
-      </Container>
+      </Container> */}
       </>
     </React.Fragment>
   );
 };
 export default Clients;
-
-
-// <div className="row">
-// <div className="col-md-4 col-sm-6 col-xs-6">
-//   <img
-//     className="image-logo"
-//     style={{ width: "42%", height: "90%" }}
-//     src={wheelsemi}
-//     alt="wheelsemi"
-//   />
-// </div>
-// <div className="col-md-4 col-sm-6 col-xs-6">
-//   <img
-//     className="image-logo img-2"
-//     src={Sourcefuse}
-//     alt="sourcefuse"
-//     style={{ width: "50%"  }}
-//   />
-// </div>
-// <div className="col-md-4 col-sm-6 col-xs-6">
-//   <img
-//     className="image-logo img-bike"
-//     style={{ width: "50%" }}
-//     src={bikebazaar}
-//     alt="bikebazaar"
-//   />
-// </div>
-// </div>
-// <div className="row img-space">
-// <div className="col-md-4 col-sm-6 col-xs-6 col-sm-12">
-//   <img
-//     className="image-logo img-wiz"
-//     style={{ width: "35%", paddingTop: "7%", height: "60px" }}
-//     src={wiziq}
-//     alt="wiziq"
-//   />
-// </div>
-// <div className="col-md-4 col-sm-6 col-xs-6 col-sm-12">
-//   <img
-//     className="image-logo"
-//     src={yuno}
-//     alt="yuno"
-//     style={{ width: "40%", height: "70%" ,marginTop:"10px"}}
-//   />
-// </div>
-// <div className="col-md-4 col-sm-6 col-xs-6 col-sm-12">
-//   <img
-//     className="image-logo-1 img-2"
-//     style={{ width: "45%", height: "100px", }}
-//     src={whitehilllogo}
-//     alt="yuno"
-//   />
-// </div>
-// </div>
-// <div className="row img-space1">
-// <div className="col-md-4 col-sm-6 col-xs-6 col-sm-12">
-//   <img
-//     className="image-logo hi-yatri"
-//     src={hiyatri}
-//     alt="hiyatri"
-//     style={{ width: "70%", height: "140px", marginLeft: "25px" }}
-//   />
-// </div>
-// <div className="col-md-4 col-sm-6 col-xs-6 col-sm-12">
-//   <img
-//     className="image-logo"
-//     src={Stigasoft}
-//     alt="stigasoft"
-//     style={{ height: "100%", width: "140px", paddingTop: "6%" }}
-//   />
-// </div>
-// <div className="col-md-4 col-sm-6 col-xs-6 col-sm-12">
-//   <img
-//     className="image-logo img-aggio"
-//     src={aggio}
-//     alt="aggio"
-//     style={{ height: "auto", width: "140px", marginTop:"15px" }}
-//   />
-// </div>
-// </div>
